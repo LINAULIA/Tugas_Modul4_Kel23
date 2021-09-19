@@ -52,7 +52,7 @@ export default function Footer() {
 
             <Button>
               <Link
-                to="/makanan"
+                to="/handphone"
                 className={classes.link}
                 style={{ color: valueTheme.color, fontWeight: "bold" }}
               >
@@ -62,7 +62,7 @@ export default function Footer() {
 
             <Button>
               <Link
-                to="/minuman"
+                to="/laptop"
                 className={classes.link}
                 style={{ color: valueTheme.color, fontWeight: "bold" }}
               >
