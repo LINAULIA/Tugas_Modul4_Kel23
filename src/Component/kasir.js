@@ -142,8 +142,8 @@ class Kasir extends React.Component {
                 >
                   <option value="0">Handphone</option>
                   <Fragment>
-                    {handphone.map((makanan) => {
-                      return <option value={makanan[1]}>{makanan[0]}</option>;
+                    {handphone.map((produk) => {
+                      return <option value={produk[1]}>{produk[0]}</option>;
                     })}
                   </Fragment>
                 </select>
@@ -158,8 +158,8 @@ class Kasir extends React.Component {
                 >
                   <option value="0">Laptop</option>
                   <Fragment>
-                    {laptop.map((makanan) => {
-                      return <option value={makanan[1]}>{makanan[0]}</option>;
+                    {laptop.map((produk) => {
+                      return <option value={produk[1]}>{produk[0]}</option>;
                     })}
                   </Fragment>
                 </select>
