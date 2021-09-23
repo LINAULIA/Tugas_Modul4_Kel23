@@ -69,6 +69,7 @@ export default function Footer() {
                 | LAPTOP |
               </Link>
             </Button>
+            
             <Button>
               <Link
                 to="/kasir"
